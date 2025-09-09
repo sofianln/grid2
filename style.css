@@ -1,0 +1,12 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (width>=500px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+}
